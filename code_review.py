@@ -2,7 +2,7 @@
 # @Author: Maria Villalobos
 # @Date:   2017-02-16 13:37:47
 # @Last Modified by:   mati
-# @Last Modified time: 2017-02-16 17:11:06
+# @Last Modified time: 2017-02-16 20:14:08
 # Advanced Python Programming - Lab 4
 # This example was extracted from http://web.mit.edu/6.005/www/sp15/classes/03-code-review/
 # and translated to Python for the purpose of this course
@@ -56,7 +56,7 @@ def leap(y):
         else:
             return False
     else:
-        if (tmp.charAt(2) == '0' and tmp.charAt(3) == '0'):
+        if (tmp[2] == '0' and tmp[3] == '0'):
             return False
         if (tmp[3] == '0' or tmp[3] == '4' or tmp[3] == '8'):
             return True
